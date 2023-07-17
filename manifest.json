@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Watch Gintama",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_popup": "Ginpopup.html",
+        "default_title": "Watch Gintama"
+    }
+}
